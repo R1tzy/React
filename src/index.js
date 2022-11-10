@@ -10,17 +10,33 @@ import './index.css';
 // import DerivedState from './components/DerivedState';
 // import ComponentUpdate from './components/ComponentUpdate';
 // import SnapshotBefore from './components/SnapshotBefore';
-import DidUpdate from './components/DidUpdate';
+// import DidUpdate from './components/DidUpdate';
+import Contador from './components/Contador';
+import ToDoList from './components/ToDoList';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
 // let n = parseInt(prompt("informe um número", "5"))
 
+
+// const Item1 = {
+//   id:Date.now(),
+//   text:"Item 1"
+// }
+
+// const Item2 = {
+//   id:Date.now(),
+//   text:"Item 2"
+// }
+
+
+
 root.render(
   <div>
-    
-    <DidUpdate/>
+    <Contador/>
+    <ToDoList/>
     {/* 
+    <DidUpdate/>
     <SnapshotBefore/>
     <ComponentUpdate/>
     <DerivedState text="Texto do DerivedState"/>
