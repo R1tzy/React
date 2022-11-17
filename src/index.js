@@ -11,8 +11,10 @@ import './index.css';
 // import ComponentUpdate from './components/ComponentUpdate';
 // import SnapshotBefore from './components/SnapshotBefore';
 // import DidUpdate from './components/DidUpdate';
-import Contador from './components/Contador';
-import ToDoList from './components/ToDoList';
+// import Contador from './components/Contador';
+// import ToDoList from './components/ToDoList';
+import Calculadora from './components/Calculadora';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
@@ -33,9 +35,10 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 
 root.render(
   <div>
+    <Calculadora/>
+    {/* 
     <Contador/>
     <ToDoList/>
-    {/* 
     <DidUpdate/>
     <SnapshotBefore/>
     <ComponentUpdate/>
